@@ -1,5 +1,13 @@
 {
   "devDependencies": {
-    "cypress": "^12.8.1"
+    "cypress": "^13.8.0"
+  },
+  "scripts": {
+    "cy:openCZ": "$(npm bin)/cypress open --config baseUrl=\"https://dev.fakturaonline.cz/\" --config-file cypress.config.env.js",
+    "cy:runCZ": "$(npm bin)/cypress run --config baseUrl=\"https://dev.fakturaonline.cz/\" --browser chrome --config-file cypress.config.env.js",
+    "cy:openSK": "$(npm bin)/cypress open --config baseUrl=\"https://dev.fakturaonline.sk/\" --config-file cypress.config.env.js",
+    "cy:runSK": "$(npm bin)/cypress run --config baseUrl=\"https://dev.fakturaonline.sk/\" --browser chrome --config-file cypress.config.env.js",
+    "cy:openEN": "$(npm bin)/cypress open --config baseUrl=\"https://dev.invoiceonline.com/\" --config-file cypress.config.env.js",
+    "cy:runEN": "$(npm bin)/cypress run --config baseUrl=\"https://dev.invoiceonline.com/\" --browser chrome --config-file cypress.config.env.js"
   }
 }

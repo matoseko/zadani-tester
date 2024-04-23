@@ -1,0 +1,19 @@
+{
+    "fakturaOnline": {
+        "companyName": "fakturaonline",
+        "streetName": "Křížová 2598/4, Smíchov",
+        "city": "Praha",
+        "zip": "15000",
+        "taxNumber": "CZ04129890",
+        "idNumber": "04129890"
+
+    },
+    "simplyTest":{
+        "companyName": "SIMPLY TEST s.r.o.",
+        "streetName": "Braunerova 995, Roztoky",
+        "city": "Roztoky",
+        "zip": "25263",
+        "idNumber": "08949701"
+
+    }
+}
